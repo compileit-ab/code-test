@@ -20,7 +20,6 @@ På sidan “Discover” vill vi att du listar olika kategorier som en filtrerin
 
 Rekommenderad tidsåtgång: Ca 4-8 timmar
 
-
 ## Leverans ?
 Skapa en Pull Request på github för att mergea in din branch till main.
 
