@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projektbeskrivning - skapa en filmsida
 
-## Getting Started
+Din uppgift är att med NextJS skapa en webbsida där man kan filtrera och söka bland populära filmer. 
 
-First, run the development server:
+Börja med att klona ner detta repot som innehåller en template uppsättning av NextJS och skapa sedan en egen branch lokalt som du jobbar i.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Det finns ett färdigt API som du ska använda och det hittar du här:  
+https://www.themoviedb.org/signup 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Det finns en färdig design gjord i Figma. Uppgiften är att göra det så likt designen som möjligt.  
+https://www.figma.com/file/UXNYBBjexIGJu93hqh8gwj/Compileit-Case
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Webbplatsen ska bestå av två sidor, en startsida och en discover-sida (se menyn i designskiss). 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+På startsidan vill vi att du visar upp “trending”, “now playing” och “top rated” hämtat från API:et.
 
-## Learn More
+I alla vyer ska det finnas ett sökfält där man med fritextsök, via api:et, ska kunna söka efter en film.
 
-To learn more about Next.js, take a look at the following resources:
+På sidan “Discover” vill vi att du listar olika kategorier som en filtrering där resultatet av filmer är baserat på det aktiva filtret. Det ska bara gå att ha ett aktivt filter åt gången.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Rekommenderad tidsåtgång: Ca 4-8 timmar
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Leverans ?
+Skapa en Pull Request på github för att mergea in din branch till main.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Vad händer sen ?
+När du lämnat in ditt projekt kommer vi att gå igenom koden 
+som du har skrivit. Vid granskning av projekt kollar vi 
+exempelvis på:
+
+ - Kodstruktur  
+ - Val av HTML-element
+ - Hur väl designen implementerats
+
+När vi kollat igenom koduppgiften kommer vi att återkomma 
+med feedback till dig samt vad nästa steg blir.
